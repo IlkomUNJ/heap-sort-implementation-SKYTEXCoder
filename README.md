@@ -51,4 +51,4 @@ Apologize for the delay, it's relatively hard to setup initial github classroom 
     ```bash
     ./{desired_executable_name}
     ```
-    Don't forget to replace {desired_executable_name} with the name you gave the program to in the previous step.
+    Don't forget to replace {desired_executable_name} with the name that you gave the program to in the previous step.
