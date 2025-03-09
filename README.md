@@ -22,6 +22,7 @@ Apologize for the delay, it's relatively hard to setup initial github classroom 
 # How to Compile and Run My Submission Source Code (C++ Instructions)
 
 ## Pre-Requisites
+- Git
 - A C++ compiler that supports C++11 or higher (e.g., `g++` or `clang++`).
 - Optionally, CMake (if using a build system).
 
