@@ -9,3 +9,46 @@
 7. That's it, any commit you made will get notified in the master repo. Please do not make a pull request to the master.
 
 Apologize for the delay, it's relatively hard to setup initial github classroom since the repo need to be configured in strictly specific condition.
+
+-------------------------------------------------------------------------------------------------------------
+
+# Identity
+- **Name:** Dandy Arya Akbar
+- **NIM:** 1313623028
+- **Class of:** 2023
+- **Class Sector:** A
+- **Study Program:** Computer Science
+
+# How to Compile and Run My Submission Source Code (C++ Instructions)
+
+## Pre-Requisites
+- A C++ compiler that supports C++11 or higher (e.g., `g++` or `clang++`).
+- Optionally, CMake (if using a build system).
+
+---
+
+## **Compiling Directly With G++**
+1. **Clone this specific fork:**
+
+    Open a terminal and run:
+    ```bash
+    git clone https://github.com/IlkomUNJ/heap-sort-implementation-SKYTEXCoder.git
+    cd heap-sort-implementation-SKYTEXCoder
+    ```
+
+2. **Compile the source code:**
+
+    Using that same terminal, run:
+    ```bash
+    cd src
+    g++ -std=c++17 -o {desired_executable_name} heap_data_structure_using_primitive_array.cpp
+    ```
+    Replace {desired_executable_name} with a relatively simple and short name that you're comfortable with, e.g. "main" or "submission"
+
+3. **Run the compiled executable:**
+
+    Finally, using a terminal that's already navigated into within the src/ directory, run the following terminal commands in order to run the compiled executable:
+    ```bash
+    ./{desired_executable_name}
+    ```
+    Don't forget to replace {desired_executable_name} with the name you gave the program to in the previous step.
