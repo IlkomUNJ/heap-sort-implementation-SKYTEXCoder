@@ -1,2 +1,19 @@
-src/main.exe
-src/submission
+# Ignore compiled object files
+*.o
+*.out
+*.so
+*.a
+
+# Ignore compiled executables (Linux/macOS)
+a.out
+*.elf
+*.bin
+
+# Ignore compiled executables (Windows)
+*.exe
+*.dll
+*.obj
+*.lib
+*.pdb
+*.ilk
+```
