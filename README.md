@@ -22,7 +22,7 @@
 
 1. **Clone this specific fork:**
 
-    Open a terminal and run:
+    Open a terminal of your own choice and run the following commands in order:
 
     ```bash
     git clone https://github.com/IlkomUNJ/heap-sort-implementation-SKYTEXCoder.git
@@ -35,17 +35,17 @@
 
     ```bash
     cd src
-    g++ -std=c++17 -o {desired_executable_name} heap_data_structure_using_primitive_array.cpp
+    g++ -std=c++17 -o {desired_compiled_executable_name} main.cpp Heap.cpp
     ```
 
-    Replace {desired_executable_name} with a relatively simple and short name that you're comfortable with, e.g. "main" or "submission"
+    Replace {desired_executable_name} with a relatively simple, easy to remember, and short name that you're comfortable with, e.g. "main", "submission", or "heap_program"
 
 3. **Run the compiled executable:**
 
-    Finally, using a terminal that's already navigated into within the src/ directory, run the following terminal commands in order to run the compiled executable:
+    Finally, using a terminal that's already navigated into within the src/ directory, run the following terminal commands to run the compiled executable:
 
     ```bash
     ./{desired_executable_name}
     ```
 
-    Don't forget to replace {desired_executable_name} with the name that you gave the program to in the previous step.
+    Don't forget to replace {desired_executable_name} with the name that you gave the program to in the previous step before this one.
