@@ -9,7 +9,7 @@ const int MAX_SIZE = 1000;
 int heap_array[MAX_SIZE];
 int heapSizePointer = 0;
 
-void satisfyMaxHeapProperty(int currentIndex) {
+void satisfyMaximumHeapProperty(int currentIndex) {
     int indexOfLeftChild = 2 * currentIndex + 1;
     int indexOfRightChild = 2 * currentIndex + 2;
     int indexOfLargestElement = currentIndex;
@@ -21,14 +21,14 @@ void satisfyMaxHeapProperty(int currentIndex) {
     }
     if (indexOfLargestElement != currentIndex) {
         swap(heap_array[currentIndex], heap_array[indexOfLargestElement]);
-        satisfyMaxHeapProperty(indexOfLargestElement);
+        satisfyMaximumHeapProperty(indexOfLargestElement);
     }
 }
 
 void heapify() {
     cout << "Heapifying the input array to make it a maximum heap....." << endl;
     for (int currentIndex = (heapSizePointer / 2) - 1; currentIndex >= 0; currentIndex--) {
-        satisfyMaxHeapProperty(currentIndex);
+        satisfyMaximumHeapProperty(currentIndex);
     }
     cout << "Maximum heapification of the input array is complete." << endl;
 }
